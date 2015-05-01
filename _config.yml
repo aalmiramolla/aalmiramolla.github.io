@@ -1,9 +1,0 @@
-name: "al3x2450 Web Page"
-description: "Example web page with Jekyll"
-
-url: "https://al3x2450.github.io"
-
-paginate: 5
-
-markdown: rdiscount
-permalink: pretty

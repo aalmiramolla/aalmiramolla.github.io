@@ -1,147 +1,250 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-        <title>Página personal de Alejandro</title>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="theme-color" content="#2196F3">
+    <title>Alejandro Almira Webpage</title>
 
-        <!-- CSS  -->
-        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    </head>
+    <!-- CSS  -->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet" >
+    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet" >
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+</head>
+<body id="top" class="scrollspy">
 
-    <body>
+<!-- Pre Loader -->
+<div id="loader-wrapper">
+    <div id="loader"></div>
 
-        <!-- Panel principal -->
-        <div class="intro deep-orange lighten-2 z-depth-1">
-          <h1 class="grey-text text-lighten-5">aalmiramolla</h1>
-          <h5 class="grey lighten-4 grey-text text-darken-1">En construcción</h5>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
+</div>
+
+<!--Navigation-->
+ <div class="navbar-fixed">
+    <nav id="nav_f" class="default_color" role="navigation">
+        <div class="container">
+            <div class="nav-wrapper"><a id="logo-container" href="#top" class="brand-logo">aalmiramolla</a>
+            <ul id="nav-mobile" class="right side-nav">
+                <li><a href="#intro">About me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Social</a></li>
+            </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+            </div>
         </div>
+    </nav>
+</div>
 
+<!--Hero-->
+<div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+        <h1 class="text_h center header cd-headline letters type">
+            <span>I Love</span>
+            <span class="cd-words-wrapper waiting">
+                <b class="is-visible">programming</b>
+                <b>learning</b>
+                <b>traveling</b>
+            </span>
+        </h1>
+    </div>
+</div>
 
-        <!-- Primera seccion -->
-        <div class="container about">
-            <h5>about me</h5>
-            <h6>let me introduce my self</h6>
-            <hr>
-            <div class="row">
-                <div class="col s12 m4 l4">
-                    <h6>Story</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<!--Parallax-->
+<div class="parallax-container">
+    <div class="parallax"><img src="img/parallax1.png"></div>
+</div>
+
+<!--Intro and service-->
+<div id="intro" class="section scrollspy">
+    <div class="container">
+        <div class="row">
+            <div  class="col s12">
+                <h2 class="center header text_h2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="span_h2"> Phasellus  </span>vestibulum lorem risus, nec suscipit lorem <span class="span_h2"> laoreet quis.</span </h2>
+            </div>
+
+            <div  class="col s12 m4 l4">
+                <div class="center promo promo-example">
+                    <i class="fa fa-graduation-cap"></i>
+                    <h5 class="promo-caption">Bachelor's Degree in Computer Science</h5>
+                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
                 </div>
-                <div class="col s12 m4 l4">
-                    <h6>Profile</h6>
-                    <div class="card blue-grey darken-1">
-                        <div class="card-content white-text">
-                            <img class="circle" src="images/me.jpg" width="100" height="100">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">Link</a>
-                            <a href='#'>Link</a>
-                        </div>
-                    </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="center promo promo-example">
+                    <i class="fa fa-linux"></i>
+                    <h5 class="promo-caption">GNU/Linux User</h5>
+                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                 </div>
-                <div class="col s12 m4 l4">
-                    <h6>current jobs</h6>
-                    <ul class="collapsible">
-                        <li class="active">
-                            <div class="collapsible-header"><i class="mdi-av-web"></i>Designer</div>
-                            <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header"><i class="mdi-editor-format-align-justify"></i>Developer</div>
-                            <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header"><i class="mdi-av-play-shopping-bag"></i>Video Editor</div>
-                            <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header"><i class="mdi-editor-insert-comment"></i>Support Asst.</div>
-                            <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-                        </li>
-                    </ul>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="center promo promo-example">
+                    <i class="fa fa-heartbeat"></i>
+                    <h5 class="promo-caption">Life Guard</h5>
+                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
                 </div>
             </div>
         </div>
+    </div>
+</div>
 
-        <!-- Portfolio -->
-        <div class="container portfolio">
-          <h5>portfolio</h5>
-          <h6>MY LATEST PROJECTS</h6>
-          <hr>
-          <div class="row">
-            <div class="col s12 m12 l12 portfolio-holder">
-              <img class="materialboxed" src="http://labs.qnimate.com/portfolio-materialize/images/project.png">
-              <img class="materialboxed" src="http://labs.qnimate.com/portfolio-materialize/images/project.png">
-              <img class="materialboxed" src="http://labs.qnimate.com/portfolio-materialize/images/project.png">
-              <img class="materialboxed" src="http://labs.qnimate.com/portfolio-materialize/images/project.png">
-              <img class="materialboxed" src="http://labs.qnimate.com/portfolio-materialize/images/project.png">
-              <img class="materialboxed" src="http://labs.qnimate.com/portfolio-materialize/images/project.png">
+<!--Parallax-->
+<div class="parallax-container">
+    <div class="parallax"><img src="img/parallax1.png"></div>
+</div>
+
+<!--Work-->
+<div class="section scrollspy" id="work">
+    <div class="container">
+        <h2 class="header text_b">Work </h2>
+        <div class="row">
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/project1.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a href="#">Project link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
+                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/project2.jpeg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a href="#">Project link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
+                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/project3.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a href="#">Project link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
+                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/project4.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a href="#">Project link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
+                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/project5.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a href="#">Project link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
+                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/project6.jpeg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a href="#">Project link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
+                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+</div>
 
-        <!-- Contacto -->
-        <div class="container contact">
-          <h5>contact</h5>
-          <h6>get in touch with me</h6>
-          <hr>
-          <div class="row">
-            <div class="col s12 m6 l6">
-              <div class="row">
-                <form class="col s12">
-                  <div class="row">
-                    <div class="input-field col s6">
-                      <input id="first_name" type="text" class="validate">
-                      <label for="first_name">First Name</label>
-                    </div>
-                    <div class="input-field col s6">
-                      <input id="last_name" type="text" class="validate">
-                      <label for="last_name">Last Name</label>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="input-field col s12">
-                      <input id="email" type="email" class="validate">
-                      <label for="email">E-Mail</label>
-                    </div>
-                  </div>
-                  <textarea class="materialize-textarea" placeholder="Your Message" required></textarea>
-                  <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-                    <i class="mdi-content-send right"></i>
-                  </button>
-                </form>
-              </div>
+<!--Parallax-->
+<div class="parallax-container">
+    <div class="parallax"><img src="img/parallax1.png"></div>
+</div>
+
+<!--Footer-->
+<footer id="contact" class="page-footer default_color scrollspy">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h5 class="white-text">Social</h5>
+                <div class="col s2">
+                        <a class="white-text" href="mailto:aalmiramolla@gmail.com">
+                            <i class="large fa fa-envelope-square"></i>
+                        </a>
+                </div>
+                <div class="col s2">
+                        <a class="white-text" href="https://twitter.com/aalmiramolla">
+                            <i class="large fa fa-twitter-square white-text"></i>
+                        </a>
+                </div>
+                <div class="col s2">
+                        <a class="white-text" href="https://facebook.com/aalmiramolla">
+                            <i class="large fa fa-facebook-square white-text"></i>
+                        </a>
+                </div>
+                <div class="col s2">
+                        <a class="white-text" href="https://github.com/aalmiramolla">
+                            <i class="large fa fa-github-square white-text"></i>
+                        </a>
+                </div>
+                <div class="col s2">
+                        <a class="white-text" href="https://linkedin.com/in/alejandroalmira">
+                            <i class="large fa fa-linkedin-square white-text"></i>
+                        </a>
+                </div>
             </div>
-            <div class="col s12 m6 l6 contact-holder">
-              <h6 class="mdi-action-home">Address</h6>
-              <p>Nr. 6, 21 Awesome Street, London, UK</p>
-              <h6 class="mdi-hardware-phone-android">Phone Number</h6>
-              <p>+91 9912776151</p>
-              <h6 class="mdi-action-open-in-browser">Website</h6>
-              <p>aalmiramolla.github.io</p>
-            </div>
-          </div>
         </div>
-
-        <!-- Footer -->
-        <footer>
-          <div class="footer-copyright">
-            <div class="container">
-            © 2014 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">Link</a>
-            </div>
-          </div>
-        </footer>
+    </div>
+    <div class="footer-copyright default_color">
+        <div class="container">
+            <i class="tiny fa fa-copyright"></i> Copyright 2015 Alejandro Almira. A template made by <a class="white-text" href="http://joashpereira.com">Joash Pereira</a>. Thanks to <a class="white-text" href="http://materializecss.com/">materializecss</a>
+        </div>
+    </div>
+</footer>
 
 
-        <!--  Scripts-->
-        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script src="js/materialize.js"></script>
-        <script src="js/init.js"></script>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
 
     </body>
 </html>

@@ -1,0 +1,17 @@
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="theme-color" content="#2196F3">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+    <!-- CSS  -->
+    <link href="{{ "/css/materialize.css" | prepend: site.baseurl }}" type="text/css" rel="stylesheet">
+    <link href="..{{ "/css/style.css" | prepend: site.baseurl }}" type="text/css" rel="stylesheet" >
+    <link href="..{{ "/css/font-awesome.min.css" | prepend: site.baseurl }}" type="text/css" rel="stylesheet" >
+    <script src="{{ "/js/modernizr.js" | prepend: site.baseurl }}"></script> <!-- Modernizr -->
+    <link rel="icon"
+      type="image/gif"
+      href="{{ "/img/favicon.gif" | prepend: site.baseurl }}">
+</head>

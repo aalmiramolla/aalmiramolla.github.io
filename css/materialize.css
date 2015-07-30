@@ -1950,9 +1950,7 @@ td, th {
   padding: 0; }
 
 html {
-  box-sizing: border-box; 
-  height: 100%; 
-}
+  box-sizing: border-box; }
 
 *, *:before, *:after {
   box-sizing: inherit; }

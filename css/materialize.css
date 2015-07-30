@@ -1952,7 +1952,9 @@ td, th {
   padding: 0; }
 
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+  height: 100%; 
+}
 
 *, *:before, *:after {
   box-sizing: inherit; }

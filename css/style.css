@@ -20,7 +20,7 @@
     min-height: 632px;
     max-height: 864px;
     position: relative;
-    background-color: #f44336;
+/*    background-color: #f44336;  */
 }
 
 #nav_f{
@@ -64,6 +64,10 @@
 .card-content a:hover {color: #2196F3;}
 
 #work, #team{background: rgb(247, 247, 247);}
+
+#blog{
+	height: 100%;}
+/*	background: rgb(154, 247, 200);}*/
 
 .text_pink{color:#EF9A9A;}
 

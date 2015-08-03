@@ -1655,6 +1655,18 @@ body {
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
+
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 

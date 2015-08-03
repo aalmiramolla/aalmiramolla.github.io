@@ -2,13 +2,14 @@
 <html>
 
   {% include head.html %}
-
   <body id="top" class="scrollspy">
-
-    {% include header.html %}
-
-    {{ content }}
-
+	<header>
+      {% include header.html %}
+	</header>
+	<main>
+      {{ content }}
+	</main>
+	
     {% include footer.html %}
 
         <!--  Scripts-->
@@ -17,5 +18,4 @@
         <script src="{{ "/js/init.js" | prepend: site.baseurl }}"></script>
         <script src="{{ "/js/category.js" | prepend: site.baseurl }}"></script> <!-- Categorias -->
   </body>
-
 </html>

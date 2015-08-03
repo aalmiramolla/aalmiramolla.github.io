@@ -66,7 +66,10 @@
 #work, #team{background: rgb(247, 247, 247);}
 
 #blog{
-	height: 100%;}
+	min-height: 100%;
+	height: auto !important;
+	height: 100%; /*for IE*/
+}
 /*	background: rgb(154, 247, 200);}*/
 
 .text_pink{color:#EF9A9A;}

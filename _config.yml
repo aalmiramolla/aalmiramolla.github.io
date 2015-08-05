@@ -10,3 +10,6 @@ github_username:  aalmiramolla
 
 # Build settings
 markdown: kramdown
+
+collections:
+  - projects

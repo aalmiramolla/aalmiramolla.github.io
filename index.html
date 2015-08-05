@@ -69,7 +69,8 @@ layout: default
   <div class="container">
     <h2 class="header text_b">Work </h2>
     <div class="row">
-	  {% for project in site.projects %}
+	  {% assign items = site.projects | sort: 'order' %}
+	  {% for project in items %}
 	  <div class="col s12 m4 l4">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
@@ -94,3 +95,4 @@ layout: default
 <div class="parallax-container">
     <div class="parallax"><img src="img/parallax3.jpg"></div>
 </div>
+

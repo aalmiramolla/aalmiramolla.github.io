@@ -18,11 +18,11 @@ body {
     padding: 0 15px;
 }
 
-#intro, #work, #team {padding-top: 4rem;}
+#intro, #work, #resume {padding-top: 4rem;}
 
 
 #index-banner {
-    min-height: 632px;
+/*  min-height: 632px;*/
     max-height: 864px;
     position: relative;
 /*    background-color: #f44336;  */
@@ -35,6 +35,7 @@ body {
 
 .text_h {
     padding: 15% 0;
+	line-height: 6.62rem;
     font-size: 6.0em;
     font-weight: 100;
     color:white;
@@ -68,7 +69,7 @@ body {
 
 .card-content a:hover {color: #2196F3;}
 
-#intro, #work, #team{background: rgb(247, 247, 247);}
+#intro, #work, #resume{background: rgb(247, 247, 247);}
 
 #blog{
 	min-height: 100%;

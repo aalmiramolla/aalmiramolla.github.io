@@ -6,6 +6,10 @@
  * Thanks for MaterializeCSS.com
  */
 
+body {
+	background-color: #ffebee;
+}
+
 .default_color{background-color: #b71c1c !important}
 
 .default_color_text{color: #2196F3 !important}
@@ -64,7 +68,7 @@
 
 .card-content a:hover {color: #2196F3;}
 
-#work, #team{background: rgb(247, 247, 247);}
+#intro, #work, #team{background: rgb(247, 247, 247);}
 
 #blog{
 	min-height: 100%;

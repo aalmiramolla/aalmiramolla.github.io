@@ -2,6 +2,7 @@
 layout: post
 title:  "Hola Mundo!"
 date:   2015-07-29
+comments: true
 categories: nuevo
 ---
 

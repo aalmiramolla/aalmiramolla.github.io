@@ -2,6 +2,7 @@
 layout: post
 title: "hello-wrold"
 date: 2015-08-05
+comments: true
 categories: nothing
 ---
 {% comment %}

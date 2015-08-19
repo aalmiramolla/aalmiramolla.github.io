@@ -2,18 +2,14 @@
 layout: default
 ---
 <!--Work-->
-  <div class="section" id="post">
-    <div class="container">
-      <div class="row">
-        <div class="col s12 m6 l12">
-          <div class="card red darken-1">
-            <div class="card-content white-text">
-              <span class="card-title">{{ page.title }}</span>
-              <h5>{{page.author}}</h5>
-              <p>{{content}}</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="section" id="post">
+  <div class="container">
+	<h5>{{ page.title }}</h5>
+	<div class="divider"></div>
+	<div class="section">
+	  <p>{{ content }}</p>
+	</div>
+	<div class="divider"></div>
   </div>
+</div>
+

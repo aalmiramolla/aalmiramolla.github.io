@@ -2232,8 +2232,9 @@ td, th {
     -o-transition: 0.25s;
     -ms-transition: 0.25s;
     transition: 0.25s;
-    color: #26a69a; }
-    .collection a.collection-item:not(.active):hover {
+    color: rgb(183, 28, 28); }
+  .collection a.collection-item:not(.active):hover {
+	  color:  #F44336;
       background-color: rgba(0, 0, 0, 0.08); }
   .collection.with-header .collection-header {
     border-bottom: 1px solid #e0e0e0;

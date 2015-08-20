@@ -8,7 +8,7 @@ layout: default
       <div class="col s12 m12 l9">
         <div class="section">
           <ul class="collection with-header">
-            <li class="collection-header red darken-4"><h4>Posts</h4></li>
+            <li class="collection-header grey darken-2"><h4>Posts</h4></li>
 			<div class="post-list-body">
               <div class="all-posts" post-cate="All">
 				{% for post in site.posts %}
@@ -35,7 +35,7 @@ layout: default
       <div class="col s12 m12 l3">
         <div class="section">
           <ul class="collection with-header">
-            <li class="collection-header red accent-2"><h5>Categories</h5></li>
+            <li class="collection-header grey lighten-2"><h5>Categories</h5></li>
             <a href="javascript:;" class="collection-item categories-list-item" cate="All"> All <span class="badge"> {{site.posts | size}}</span></a>
             {% for category in site.categories %}
               <a href="javascript:;" class="collection-item categories-list-item" cate="{{ category | first }}"> {{ category | first }} <span class="badge">{{ category | last | size }}</span></a>

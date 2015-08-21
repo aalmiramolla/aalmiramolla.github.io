@@ -2,28 +2,45 @@
 layout: default
 ---
 <!--Work-->
+
+
 <div class="section" id="post">
   <div class="container">
-	<h5>{{ page.title }}</h5>
-	<div class="divider"></div>
-	<div class="section">
-	  <p>{{ content }}</p>
+	<div class="row">
+	  <div id="contents" class="col s12 l10">
+		<h2 id="titulo">{{ page.title }}</h2>
+		<div class="divider"></div>
+		<div class="section">
+		  {{ content }}
+		</div>
+		<div class="divider"></div>
+		{% if page.comments %}
+		<div id="disqus_thread"></div>
+		<script type="text/javascript">
+		  /* * * CONFIGURATION VARIABLES * * */
+		  var disqus_shortname = 'aalmiramolla';
+		  
+		  /* * * DON'T EDIT BELOW THIS LINE * * */
+		  (function() {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		  })();
+		</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+		{% endif %}
+	  </div>
+	  <div class="hide-on-small-only col s12 l2">
+		<div style="height: 1px;">
+		  <div class="toc-wrapper">
+			<div id="toc">
+			  <h3>Content</h3>
+			  <div class="divider"></div>
+			</div>
+			<div class="divider"></div>
+		  </div>
+		</div>
+	  </div>
 	</div>
-	<div class="divider"></div>
-	{% if page.comments %}
-	<div id="disqus_thread"></div>
-	<script type="text/javascript">
-      /* * * CONFIGURATION VARIABLES * * */
-      var disqus_shortname = 'aalmiramolla';
-      
-      /* * * DON'T EDIT BELOW THIS LINE * * */
-      (function() {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-	</script>
-	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-	{% endif %}
   </div>
 </div>

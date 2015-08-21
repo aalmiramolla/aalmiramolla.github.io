@@ -18,6 +18,11 @@ body {
     padding: 0 15px;
 }
 
+.toc-wrapper {
+    position: relative;
+    margin-top: 42px;
+}
+
 #intro, #work, #resume {padding-top: 4rem;}
 
 

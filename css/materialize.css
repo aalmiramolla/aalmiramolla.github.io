@@ -2089,7 +2089,7 @@ img.responsive-img {
   position: relative; }
 
 .pinned {
-  position: fixed; }
+	position: fixed !important; }
 
 @media only screen and (max-width : 600px) {
   .hide-on-small-only, .hide-on-small-and-down {

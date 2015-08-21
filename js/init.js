@@ -1,8 +1,8 @@
 (function($){
   $(function(){
 
-    $('.button-collapse').sideNav();
-	$('.scrollspy').scrollSpy();
+      $('.button-collapse').sideNav();
+	  $('.scrollspy').scrollSpy();
 	  $('.toc-wrapper').pushpin({ top: $('nav').height() });
 	  //$('.tabs-wrapper').pushpin({ top: $('.tabs-wrapper').offset().top });
 //	$('.toc-wrapper').pushpin({ top: "120" });

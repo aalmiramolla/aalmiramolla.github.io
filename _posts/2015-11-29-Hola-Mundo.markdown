@@ -2,7 +2,7 @@
 layout: post
 title: "Hola Mundo"
 date: 2015-11-29
-commet: True
+comments: True
 categories: 
 ---
 {% comment %}
